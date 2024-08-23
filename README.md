@@ -49,4 +49,4 @@ source .env
 
 ### Config
 
-Update paths for vector databases and finetuned model in src/config
+Update paths for vector databases and finetuned model in [src/config](./src/config.py)
