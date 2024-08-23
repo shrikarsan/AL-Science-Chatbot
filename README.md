@@ -50,3 +50,9 @@ source .env
 ### Config
 
 Update paths for vector databases and finetuned model in [src/config](./src/config.py)
+
+## Run
+
+```bash
+cd src && uvicorn main:app --host 0.0.0.0 --port 8000
+```
