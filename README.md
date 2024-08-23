@@ -11,6 +11,7 @@ Chat-bot for the A Level students to assist them in studies for the following su
 
 GPT 3.5 is Fine-tuned to identify the subject for the complex question asked by student and get a one word response of 'biology' or 'chemistry' or 'physics'.
 
+### Fine-tune GPT-3.5
 - Notebook - [Fine-tune GPT-3.5](./notebooks/Fine_Tune_GPT_3_5_for_Vector_DB_Routing.ipynb)
 
 Then by using it route the RAG pipeline the the specicfic vector database of that subject.
