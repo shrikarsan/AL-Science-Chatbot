@@ -19,3 +19,30 @@ Then by using it route the RAG pipeline the the specicfic vector database of tha
 
 ### API keys
 We'll be using [OpenAI](https://platform.openai.com/docs/models/) to access ChatGPT model `gpt-3.5-turbo`. Be sure to create your account and have your credentials ready.
+
+### Repository
+```bash
+git clone https://github.com/shrikarsan/AL-Science-Chatbot.git
+git config --global user.name <GITHUB-USERNAME>
+git config --global user.email <EMAIL-ADDRESS>
+```
+### Environment
+
+Then set up the environment correctly by specifying the values in your `.env` file,
+and installing the dependencies:
+
+```bash
+pip install --user -r requirements.txt
+export PYTHONPATH=$PYTHONPATH:$PWD
+```
+
+### Credentials
+```bash
+touch .env
+
+# Add environment variables to .env
+OPENAI_API_BASE="https://api.openai.com/v1"
+OPENAI_API_KEY=""  # https://platform.openai.com/account/api-keys
+
+source .env
+```
