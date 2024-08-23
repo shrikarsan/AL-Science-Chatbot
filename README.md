@@ -46,3 +46,7 @@ OPENAI_API_KEY=""  # https://platform.openai.com/account/api-keys
 
 source .env
 ```
+
+### Config
+
+Update paths for vector databases and finetuned model in src/config
